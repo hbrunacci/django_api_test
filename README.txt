@@ -1,4 +1,59 @@
-Prueba de conocimiento con Django Rest Framework  
+
+Token
+
+Endpoint
+api/token
+
+test_user:
+user:clicohtest
+pass:admin123
+
+
+Products
+
+Listar productos;
+
+Tipo request: GET
+endpoind /products/
+
+Crear productos:
+
+Tipo request: POST
+endpoind /products/
+body : {'id':'[char(12)]',
+        'name':'[char(50)]',
+        'price':'[float]',
+        'stock':'[int]'
+}
+
+Borrar productos:
+
+Tipo request: DELETE
+endpoind /products/[id]/
+
+Actualizar Producto:
+
+Tipo request: PUT
+endpoind /products/[id]/
+body: { 'name':'[char(50)]',
+        'price':'[float]',
+        'stock':'[int]'
+}
+
+Actualizar parcial Producto:
+
+Tipo request: PATCH
+endpoind /products/[id]/
+body: { 'name':'[char(50)]',
+        'price':'[float]',
+        'stock':'[int]'
+}
+
+
+
+
+
+Prueba de conocimiento con Django Rest Framework
 [Objetivo] 
 Analizar el nivel de conocimiento de los postulantes a desarrollador de backend Clicoh. 
 [Prueba lógica] 
