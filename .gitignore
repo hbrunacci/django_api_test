@@ -1,0 +1,5 @@
+.idea/
+*.sqlite
+*.log
+*.swp
+__pycache__
